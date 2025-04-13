@@ -1,4 +1,4 @@
-import { Component, signal } from '@angular/core';
+import { Component, signal, input } from '@angular/core';
 import { GreetingComponent } from '../components/greeting/greeting.component';
 
 @Component({
@@ -8,6 +8,6 @@ import { GreetingComponent } from '../components/greeting/greeting.component';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-  message_from_parent_component = signal('This is message from Parent component');
+  greeting_from_parent = input('Default greeting message from home component');
 
 }

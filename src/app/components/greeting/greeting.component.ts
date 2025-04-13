@@ -1,4 +1,4 @@
-import { Component, input } from '@angular/core';
+import { Component, signal, input } from '@angular/core';
 
 @Component({
   selector: 'app-greeting',
@@ -7,6 +7,7 @@ import { Component, input } from '@angular/core';
   styleUrl: './greeting.component.css'
 })
 export class GreetingComponent {
-  message_from_parent = input('Default greeting message');
+  greeting_from_parent_component = input('Default greeting message from greeting component');
+  greeting_from_self_component = signal('greeting message from self component');
 
 }

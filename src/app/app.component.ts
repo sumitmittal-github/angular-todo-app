@@ -1,5 +1,4 @@
-import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component, signal } from '@angular/core';
 import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './home/home.component';
 
@@ -10,5 +9,6 @@ import { HomeComponent } from './home/home.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Angular App';
+  title = signal('Sumit Angular App');
+  greeting = signal('Welcome to my first Angular App');
 }

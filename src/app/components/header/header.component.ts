@@ -1,4 +1,4 @@
-import { Component, signal } from '@angular/core';
+import { Component, signal, input } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -7,5 +7,7 @@ import { Component, signal } from '@angular/core';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
-  title = signal('My First Angular App')
+  title_from_parent = input('title_from_parent');
+  sub_title_from_self = signal('sub title from self');
+
 }
