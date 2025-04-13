@@ -1,6 +1,6 @@
 import { Component, signal } from '@angular/core';
 import { HeaderComponent } from './components/header/header.component';
-import { BodyComponent } from './body/body.component';
+import { BodyComponent } from './components/body/body.component';
 
 @Component({
   selector: 'app-root',

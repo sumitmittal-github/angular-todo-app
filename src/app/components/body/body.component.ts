@@ -1,5 +1,5 @@
 import { Component, signal, input } from '@angular/core';
-import { GreetingComponent } from '../components/greeting/greeting.component';
+import { GreetingComponent } from '../greeting/greeting.component';
 
 @Component({
   selector: 'app-body',
