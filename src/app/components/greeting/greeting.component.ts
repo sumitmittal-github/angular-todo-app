@@ -10,4 +10,8 @@ export class GreetingComponent {
   greeting_from_parent_component = input('Default greeting message from greeting component');
   greeting_from_self_component = signal('greeting message from self component');
 
-}
+  keyupHandlerGreeting(event : KeyboardEvent){
+    console.log(`User pressed : ${event.key}`);
+  }
+
+} 

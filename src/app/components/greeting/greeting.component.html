@@ -3,4 +3,6 @@
 <nav> {{greeting_from_parent_component()}} </nav>
 <nav> {{greeting_from_self_component()}} </nav>
 
+<input type="text" (keyup)="keyupHandlerGreeting($event)" />
+
 <h5> Greeting component ends !!!! </h5>
