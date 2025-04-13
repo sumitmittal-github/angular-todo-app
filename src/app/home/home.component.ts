@@ -1,4 +1,4 @@
-import { Component, signal, input } from '@angular/core';
+import { Component, input } from '@angular/core';
 import { GreetingComponent } from '../components/greeting/greeting.component';
 import { CounterComponent } from '../components/counter/counter.component';
 
