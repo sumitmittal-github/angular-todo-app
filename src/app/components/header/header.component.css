@@ -6,3 +6,13 @@ header {
     align-items: center;
     justify-content: space-between;
 }
+
+.menu-link {
+    margin-right: 20px;
+    text-decoration: none;
+    color: burlywood;
+    font-weight: bold;
+}
+.menu-link:hover {
+    color: blueviolet;
+}

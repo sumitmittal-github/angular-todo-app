@@ -1,4 +1,11 @@
 <header>
-    <div>{{title_from_parent() }}</div>
-    <div>{{sub_title_from_self() }}</div>
+    <div>
+        <span>{{title_from_parent() }} - {{sub_title_from_self() }}</span>
+    </div>
+
+    <div>
+        <span class="menu-link" routerLink="/home">Home</span>
+        <span class="menu-link" routerLink="/todo">Todo</span>
+    </div>
+
 </header>
